@@ -5,7 +5,6 @@ LinkedList::LinkedList(){
 }
 
 LinkedList::~LinkedList(){
-    clear();
 }
 
 void LinkedList::addToFront(int val){
@@ -76,16 +75,6 @@ int LinkedList::removeFromBack(){
         
     }
     return removedVal;
-}
-
-void LinkedList::clear(){
-    Node* temp = front;
-    while (front){
-        temp = front;
-        delete temp;
-        front = front->next;
-    }
-    delete front;
 }
 
 int LinkedList::getLength(Node *head){

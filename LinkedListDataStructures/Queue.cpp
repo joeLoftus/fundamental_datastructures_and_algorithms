@@ -5,7 +5,6 @@ Queue::Queue(){
 }
 
 Queue::~Queue(){
-    clear();
 }
 
 void Queue::enqueue(int val){

@@ -5,7 +5,6 @@ Stack::Stack(){
 }
 
 Stack::~Stack(){
-    clear();
 }
 
 void Stack::push(int val){

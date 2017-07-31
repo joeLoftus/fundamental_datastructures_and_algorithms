@@ -13,10 +13,9 @@ int main()
     l.quickSort();
     l.print();
     l.addToFront(123);
+    l.removeFromBack();
     l.print();
     l.mergeSort();
-    l.print();
-    l.clear();
     l.print();
     
     Queue q;
@@ -25,6 +24,7 @@ int main()
     q.enqueue(3);
     q.print();
     q.dequeue();
+    q.print();
     q.dequeue();
     q.dequeue();
     q.print();
@@ -34,5 +34,7 @@ int main()
     s.push(0);
     s.push(4);
     s.push(1);
+    s.print();
+    s.pop();
     s.print();
 }

@@ -39,7 +39,6 @@ public:
     void addToBack(int val);
     int removeFromBack();
     void print();
-    void clear();
     
     int getLength(Node* head);
     void mergeSort();
