@@ -14,5 +14,5 @@ void Queue::enqueue(int val){
 
 
 int Queue::dequeue(){
-     return removeFromBack();
+     return removeFromFront();
  }

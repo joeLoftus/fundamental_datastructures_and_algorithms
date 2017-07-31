@@ -1,3 +1,12 @@
+/*///////////////////////////
+Dynamic Array Operations
+Indexing: O(1)
+Insert/delete at beginning: O(n)
+Insert/delete at end: O(1) amortized
+Insert/delete in middle: O(n)
+Average wasted space: O(n)
+*////////////////////////////
+
 #include<iostream>
 
 using namespace std;
@@ -18,5 +27,4 @@ private:
   int desiredSize;
   int *array;
   void resize(float halfOrDouble);
-
 };

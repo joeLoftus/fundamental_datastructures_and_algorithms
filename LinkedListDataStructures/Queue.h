@@ -1,3 +1,9 @@
+/*///////////////////////////
+Queue Operations (for this implementation)
+enqueue: O(n) (Add to back)
+dequeue: O(1) (Remove from front)
+*////////////////////////////
+
 #include"LinkedList.h"
 
 using namespace std;

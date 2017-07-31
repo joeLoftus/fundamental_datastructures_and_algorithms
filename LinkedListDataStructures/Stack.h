@@ -1,3 +1,9 @@
+/*///////////////////////////
+Stack Operations (for this implementation)
+pop: O(1) (Add to front)
+push: O(1) (Remove from front)
+*////////////////////////////
+
 #include"LinkedList.h"
 
 using namespace std;

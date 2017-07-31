@@ -30,6 +30,11 @@ void Heap::print()
     cout << endl;
 }
 
+int Heap::size()
+{
+    return heap.size();
+}
+
 void Heap::bubbleUp(int index)
 {    
     while ( ( index > 0 ) and ( parent(index) >= 0 ) and ( heap[parent(index)] > heap[index] ) )

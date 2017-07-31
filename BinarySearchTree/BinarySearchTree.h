@@ -1,3 +1,11 @@
+/*///////////////////////////
+Binary Search Tree Operations
+Search: Average: O(log (n)), Worst Case: O(n)
+Insert: Average: O(log (n)), Worst Case: O(n)
+Delete: Average: O(log (n)), Worst Case: O(n)
+Space: Average: O(n), Worst Case: O(n)
+*////////////////////////////
+
 #include<iostream>
 
 using namespace std;

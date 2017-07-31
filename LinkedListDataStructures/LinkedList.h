@@ -1,3 +1,17 @@
+/*///////////////////////////
+Linked List Operations
+Indexing: O(n)
+Insert/delete at beginning: O(1)
+Insert/delete at end: O(n), O(1) if doubly linked
+Insert/delete in middle: searchtime + O(1)
+Average wasted space: O(n)
+
+This is an implementation of a singly linked list.
+
+Merge sort: Average and worst case: O(n log(n))
+Quick sort: Worst: O(n^2) Average: O(n log(n))
+*////////////////////////////
+
 #ifndef LINKED_LIST_H
 #define LINKED_LIST_H
 

@@ -1,3 +1,9 @@
+/*///////////////////////////
+Trie time complexities
+search: Worst case: O(m) where m is length of the string
+insert: Worst case: O(m) where m is length of the string
+*////////////////////////////
+
 #include <iostream>
 #include <string>
 #include <map>

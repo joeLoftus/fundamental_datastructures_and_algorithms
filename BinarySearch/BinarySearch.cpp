@@ -1,3 +1,6 @@
+/*///////////////////////////
+Binary Search: Worst Case: O(log(n))
+*////////////////////////////
 #include <iostream>
 
 int binarySearch(int *array, int size, int desiredValue){

@@ -1,3 +1,12 @@
+/*///////////////////////////
+Binary Heap time complexities
+delete-min: O(log n)
+insert: O(log n)
+decrease-key: O(log n)
+
+The following is a min heap that implements a priority queue.
+*////////////////////////////
+
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -8,7 +17,7 @@ public:
     void insert(int element);
     int deleteMin();
     void print();
-    int size() { return heap.size(); }
+    int size();
 private:
     int left(int parent);
     int right(int parent);
@@ -18,5 +27,3 @@ private:
 private:
     vector<int> heap;
 };
-
-//PRIORITY QUEUE

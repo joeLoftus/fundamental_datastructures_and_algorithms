@@ -31,10 +31,7 @@ void Trie::insert(string word) {
       temp->ch = ch;
       (*tree)[ch] = temp;
 
-      // For continuous inserting a word.
       tree = &temp->children;
-      
-      // For the ease of memory clean up.
       children.push_back(temp);
     }
   }
